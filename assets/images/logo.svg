@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fcedec" />
+      <stop offset="35%" stop-color="#f4b5bc" />
+      <stop offset="70%" stop-color="#e8929b" />
+      <stop offset="100%" stop-color="#c4626d" />
+    </linearGradient>
+    <linearGradient id="champagneGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="50%" stop-color="#dfb15b" />
+      <stop offset="100%" stop-color="#b48328" />
+    </linearGradient>
+    <linearGradient id="bgNoir" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2224" />
+      <stop offset="100%" stop-color="#140f10" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="250" cy="250" r="236" fill="url(#bgNoir)" stroke="url(#roseGold)" stroke-width="4.5" />
+  <circle cx="250" cy="250" r="220" fill="none" stroke="rgba(244, 181, 188, 0.35)" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- Diamond Facet & Sparkle Motif -->
+  <polygon points="250,140 282,175 250,225 218,175" fill="none" stroke="url(#roseGold)" stroke-width="3" />
+  <polygon points="250,140 266,175 250,225 234,175" fill="none" stroke="url(#champagneGold)" stroke-width="1.5" opacity="0.8" />
+  <circle cx="250" cy="140" r="4.5" fill="url(#champagneGold)" />
+  <!-- Sparkles -->
+  <path d="M 288 152 L 292 160 L 300 164 L 292 168 L 288 176 L 284 168 L 276 164 L 284 160 Z" fill="url(#champagneGold)" />
+  <path d="M 212 185 L 214 191 L 220 193 L 214 195 L 212 201 L 210 195 L 204 193 L 210 191 Z" fill="url(#champagneGold)" opacity="0.85" />
+
+  <!-- Divider -->
+  <line x1="120" y1="265" x2="380" y2="265" stroke="url(#roseGold)" stroke-width="1.5" opacity="0.85" />
+  <circle cx="250" cy="265" r="4" fill="url(#champagneGold)" />
+
+  <!-- Typography -->
+  <text x="250" y="322" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="5">MISHME</text>
+  <text x="250" y="358" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#f4b5bc" letter-spacing="6">JEWELLERY &#8226; GIFTS</text>
+  <text x="250" y="392" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="rgba(255, 255, 255, 0.75)" letter-spacing="3">HAZRA &#8226; SOUTH KOLKATA</text>
+</svg>
